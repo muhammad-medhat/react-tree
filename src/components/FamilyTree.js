@@ -8,13 +8,14 @@
 import React, { useContext } from "react";
 import { FamilyContext } from "../context/FamilyContext";
 import MemberCard from "./MemberCard";
-import "./FamilyTree.css";
+// import "./FamilyTree.css";
 
 export default function FamilyTree() {
   const { familyMembers } = useContext(FamilyContext);
+  console.log("familyMembers", familyMembers);
 
   return (
-    <div className="family-tree">
+    <div className="family-tree flex flex-wrap justify-center gap-4 p-4 bg-gray-100 rounded-lg shadow-md">
       {familyMembers.map((member) => (
         <MemberCard key={member.id} member={member} />
       ))}
