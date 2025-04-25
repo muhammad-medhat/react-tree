@@ -2,14 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { FamilyProvider } from "./context/FamilyContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <FamilyProvider>
-      <App />
-    </FamilyProvider>
+    <App />
   </React.StrictMode>
 );
 

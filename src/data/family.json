@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "birthDate": "1950-01-01",
+    "children": [
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "birthDate": "1980-04-15",
+        "children": [
+          {
+            "id": 3,
+            "name": "Emily Doe",
+            "birthDate": "2010-06-20",
+            "children": []
+          },
+          {
+            "id": 4,
+            "name": "Michael Doe",
+            "birthDate": "2012-09-12",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Robert Doe",
+        "birthDate": "1982-11-30",
+        "children": [
+          {
+            "id": 6,
+            "name": "Sophia Doe",
+            "birthDate": "2015-03-25",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Alice Smith",
+    "birthDate": "1955-07-10",
+    "children": [
+      {
+        "id": 8,
+        "name": "Chris Smith",
+        "birthDate": "1985-02-18",
+        "children": [
+          {
+            "id": 9,
+            "name": "Liam Smith",
+            "birthDate": "2018-08-05",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Emma Smith",
+        "birthDate": "1988-12-22",
+        "children": []
+      }
+    ]
+  }
+]

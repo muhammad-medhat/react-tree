@@ -13,5 +13,6 @@ export default function PersonNode({
   children,
   onClick,
 }) {
+  // const handleClick = () => setSelectedPerson(person);
   return <div>PersonNode</div>;
 }

@@ -1,0 +1,42 @@
+.member-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.member-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.member-card p {
+  margin: 4px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.children {
+  margin-top: 8px;
+}
+
+.children h4 {
+  margin: 0;
+  font-size: 1em;
+  color: #444;
+}
+
+.children ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.children li {
+  list-style-type: disc;
+  font-size: 0.9em;
+  color: #666;
+}
